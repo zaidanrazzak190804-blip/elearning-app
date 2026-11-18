@@ -1,5 +1,7 @@
+import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../features/courses/presentation/course_detail_page.dart';
 import '../../features/courses/presentation/course_list_page.dart';
 
 final appRouter = GoRouter(
@@ -9,6 +11,18 @@ final appRouter = GoRouter(
       path: '/',
       builder: (context, state) => const CourseListPage(),
     ),
-    // Route detail course dan player ditambahkan di langkah berikutnya.
+    GoRoute(
+      path: '/course/:courseId',
+      builder: (context, state) => CourseDetailPage(
+        courseId: int.parse(state.pathParameters['courseId']!),
+      ),
+    ),
+    // Placeholder sementara, diganti halaman player di langkah berikutnya.
+    GoRoute(
+      path: '/course/:courseId/lesson/:lessonId',
+      builder: (context, state) => const Scaffold(
+        body: Center(child: Text('Player menyusul')),
+      ),
+    ),
   ],
 );

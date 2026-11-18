@@ -1,3 +1,4 @@
+import 'package:go_router/go_router.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -33,9 +34,7 @@ class CourseListPage extends ConsumerWidget {
               separatorBuilder: (_, _) => const SizedBox(height: 12),
               itemBuilder: (context, i) => CourseCard(
                 course: courses[i],
-                onTap: () {
-                  // TODO: navigasi ke detail course (langkah berikutnya)
-                },
+                onTap: () => context.push('/course/${courses[i].id}'),
               ),
             ),
           );

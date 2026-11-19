@@ -138,3 +138,8 @@ Diagram dan alur lengkap ada di [docs/design.md](docs/design.md).
 ## Pengembangan Lanjutan
 
 Backend asli dengan database, autentikasi, penyimpanan progres per lesson, cache offline, dan kontrol player yang lebih lengkap (layar penuh, kecepatan putar, resume posisi terakhir).
+
+## Video E-Learning App
+
+- [Video utama](https://drive.google.com/file/d/12Pvru34W9MYFWAbYl4wPNDI-e41hYnv7/view?usp=drive_link)
+- [Video kondisi error](https://drive.google.com/file/d/1nk4YzASsiYE6AUR5JLNG0CgHseKa4eQj/view?usp=drive_link)

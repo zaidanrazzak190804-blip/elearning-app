@@ -132,7 +132,7 @@ Diagram dan alur lengkap ada di [docs/design.md](docs/design.md).
 - Tidak ada cache atau mode offline: tanpa internet, data dan video tidak tersedia.
 - Tidak ada mode layar penuh dan pengaturan kecepatan putar.
 - Data berasal dari JSON statis, sehingga tidak ada pencarian, filter, maupun paginasi.
-- Pengujian utama dilakukan di Chrome (web). **[ISI: status pengujian Android, misalnya "APK telah dibuild dan dicoba di perangkat Android" atau "belum diuji di perangkat Android"]**. Perilaku video di web dan mobile dapat berbeda.
+- Pengujian utama dilakukan di Chrome (web) dan di perangkat Android fisik melalui APK rilis, belum diuji di iOS.
 - Tes otomatis baru berupa tes dasar (aplikasi dapat dibangun dan judul halaman tampil).
 
 ## Pengembangan Lanjutan

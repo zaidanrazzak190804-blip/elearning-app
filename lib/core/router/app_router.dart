@@ -17,7 +17,6 @@ final appRouter = GoRouter(
         courseId: int.parse(state.pathParameters['courseId']!),
       ),
     ),
-    // Placeholder sementara, diganti halaman player di langkah berikutnya.
     GoRoute(
       path: '/course/:courseId/lesson/:lessonId',
       builder: (context, state) => LessonPlayerPage(

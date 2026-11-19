@@ -193,9 +193,9 @@ Prinsip: sederhana, konsisten, dan mudah digunakan.
 - **Komponen**: kartu dengan sudut membulat 16 dan outline tipis, chip untuk info singkat, `ListTile` untuk lesson.
 - **Responsif**: layout berbasis `ListView` dan `AspectRatio` sehingga menyesuaikan lebar layar.
 
-### Wireframe halaman
+### Tampilan aplikasi
 
-> Letakkan screenshot aplikasi di `docs/screenshots/` lalu rujuk di sini.
+Screenshot berikut diambil dari aplikasi yang berjalan di perangkat Android.
 
 | Halaman | Isi |
 |---|---|
@@ -203,8 +203,18 @@ Prinsip: sederhana, konsisten, dan mudah digunakan.
 | Course Detail | Thumbnail, judul, instruktur dan level, deskripsi, daftar lesson (nomor, judul, durasi) |
 | Lesson Player | Video 16:9, kontrol play/pause, slider seek, waktu, judul lesson, daftar lesson lain dengan penanda lesson aktif |
 
-```markdown
-![Course List](screenshots/course_list.png)
-![Course Detail](screenshots/course_detail.png)
-![Lesson Player](screenshots/lesson_player.png)
-```
+**Course List**
+
+![Course List](screenshots/course_list_1.jpg)
+
+**Course Detail**
+
+![Course Detail](screenshots/course_detail_1.jpg)
+
+**Lesson Player**
+
+![Lesson Player](screenshots/lesson_player_1.jpg)
+
+**Kondisi Error**
+
+![Error State](screenshots/error_state.jpg)
